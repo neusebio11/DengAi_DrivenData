@@ -89,3 +89,8 @@ DengAI/
 
 ---
 
+## Previsões Finais
+
+O ensemble combina XGBoost, LightGBM e Random Forest numa média ponderada por 1/MAE, gerando previsões semanais de casos de dengue para ambas as cidades. O gráfico abaixo mostra a série histórica completa de treino (casos reais) seguida do período de inferência futura previsto pelo modelo.
+
+![Série temporal completa — Treino + Inferência futura do Ensemble](images/series_completa_dengue.png)
